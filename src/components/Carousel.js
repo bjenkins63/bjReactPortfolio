@@ -1,11 +1,17 @@
  import React from 'react';
 
- import golf from '../assets/images/golf';
- import generator from '../assets/images/generator';
- import truffle from '../assets/images/truffle';
- import notepad from '../assets/images/notepad';
- import artstack from '../assets/images/artstack';
- import weather from '../assets/images/weather';
+ import Card from './Card';
+ import Container from 'react-bootstrap/Container';
+
+ import Row from 'react-bootstrap/Row';
+
+
+ import golf from '../assets/images/golf.jpg';
+ import generator from '../assets/images/generator.jpg';
+ import truffle from '../assets/images/truffle.jpg';
+ import notepad from '../assets/images/notepad.jpg';
+ import artstack from '../assets/images/artstack.jpg';
+ import weather from '../assets/images/weather.jpg';
 
 
 
@@ -68,10 +74,41 @@
         }
     }
 
+
+    handleCardClick = (id, card) => {
+        let items = [...this.state.items];
+
+        items[id].selected = items[id].selected ? false : true;
+
+        items.forEach(item => {
+            if(item.id !== id) {
+                item.selected = false;
+            }
+        });
+
+        this.setState( {
+            items
+        });
+    }
+
+
+    makeItems = (items) => {
+        return items.map(item => {
+            return <Card item={item} click={(e => this.handleCardClick(item.id, e))}  key={item.id}/>
+        })
+
+
+    }
+
+
+
     render() {
         return(
-            <p>Carousel</p>
-        );
+            <Container fluid={true}>
+                <Row className="justify-content-around">
+                    {this.makeItems(this.state.items)}
+                </Row>
+            </Container>            );
     }
  }
 

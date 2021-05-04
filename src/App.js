@@ -62,10 +62,10 @@ render() {
 
         </Navbar>
 
-        <Route path="/" render={() => <HomeView title={this.state.title} subtitle={this.state.home.subtitle} body={this.state.home.body} />} />
-        <Route path="/about" exact render={() => <AboutView title={this.state.about.title}/>} />
-        <Route path="/art" exact render={() => <ArtView title={this.state.art.title} />} />
-        <Route path="/contact" exact render={() => <ContactView title={this.state.contact.title} />} />
+        <Route path="/" exact render={() => <HomeView title={this.state.title} subtitle={this.state.home.subtitle} body={this.state.home.body} />} />
+        <Route path="/about" render={() => <AboutView title={this.state.about.title}/>} />
+        <Route path="/art" render={() => <ArtView title={this.state.art.title} />} />
+        <Route path="/contact" render={() => <ContactView title={this.state.contact.title} />} />
 
 
 

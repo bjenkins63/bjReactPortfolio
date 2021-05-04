@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.bj-card {
+  margin: 20px;
+}
+
+.bj-card-image {
+  border-radius: 10px;
+  width: 300px;
+  height: 480px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.bj-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.bj-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.bj-card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.success-msg {
+  color: rgb(69, 191, 115);
+  padding: 10px 15px;
+}
+
+.success-msg {
+  color: lightcoral;
+  padding: 10px 15px;
+}
