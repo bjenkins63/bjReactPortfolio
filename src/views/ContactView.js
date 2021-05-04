@@ -1,9 +1,10 @@
 import React from 'react';
+import Axios from 'axios';
 
 import Hero from '../components/Hero';
 import Content from '../components/Content';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
+// import button from 'react-bootstrap/button';
 
 
 class ContactView extends React.Component {
@@ -39,6 +40,27 @@ class ContactView extends React.Component {
 
         this.setState({
             disabled: true,
+        });
+
+        Axios.post('/api/email', this.state)
+        .then(res => {
+            if(res.data.success){
+            this.setState({
+                disabled: false,
+                emailSent: true
+            });
+        } else {
+                this.setState({
+                    disabled: false,
+                    emailSent: true
+            });
+        }
+        })
+        .catch(err => {
+            this.setState({
+                disabled: false,
+                emailSent: false
+            });
         })
     }
 
