@@ -5,7 +5,6 @@
 
  import Row from 'react-bootstrap/Row';
 
-
  import golf from '../assets/images/golf.jpg';
  import generator from '../assets/images/generator.jpg';
  import truffle from '../assets/images/truffle.jpg';
@@ -108,7 +107,8 @@
                 <Row className="justify-content-around">
                     {this.makeItems(this.state.items)}
                 </Row>
-            </Container>            );
+            </Container>            
+            );
     }
  }
 
