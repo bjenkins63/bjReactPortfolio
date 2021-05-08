@@ -5,10 +5,10 @@ import Container from 'react-bootstrap/Container';
 
 import Row from 'react-bootstrap/Row';
 
-import golf from '../assets/images/golf.jpg';
-import generator from '../assets/images/generator.jpg';
-import truffle from '../assets/images/truffle.jpg';
-import notepad from '../assets/images/notepad.jpg';
+import primeroast from '../assets/images/primeroast.jpg';
+import fiftytwo from '../assets/images/fiftytwo.jpg';
+import dated from '../assets/images/dated.jpg';
+import illustration from '../assets/images/illustration.jpg';
 import artstack from '../assets/images/artstack.jpg';
 import weather from '../assets/images/weather.jpg';
 
@@ -24,7 +24,7 @@ class Gallery extends React.Component {
                    id: 0,
                    title: 'Golf Quiz',
                    subTitle: 'A timed test of your golfing knowledge.',
-                   imgSrc: golf,
+                   imgSrc: primeroast,
                    link: 'https://github....',
                    selected: false
                },
@@ -32,7 +32,7 @@ class Gallery extends React.Component {
                    id: 1,
                    title: 'Random Password Generator',
                    subTitle: 'Create unique passwords from 8-64 characters long.',                 
-                   imgSrc: generator,
+                   imgSrc: fiftytwo,
                    link: 'https://github....',
                    selected: false
                },
@@ -40,7 +40,7 @@ class Gallery extends React.Component {
                    id: 2,
                    title: 'Truffle Shuffle',
                    subTitle: 'A group project integrating external API calls to create a fun entertainment application.',                 
-                   imgSrc: truffle,
+                   imgSrc: dated,
                    link: 'https://github....',
                    selected: false
                },
@@ -48,7 +48,7 @@ class Gallery extends React.Component {
                    id: 3,
                    title: 'Note Pad',
                    subTitle: 'An application for keeping and deleting notes.',                 
-                   imgSrc: notepad,
+                   imgSrc: illustration,
                    link: 'https://github....',
                    selected: false
                },
