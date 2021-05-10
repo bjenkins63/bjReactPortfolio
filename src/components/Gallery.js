@@ -9,8 +9,10 @@ import primeroast from '../assets/images/primeroast.jpg';
 import fiftytwo from '../assets/images/fiftytwo.jpg';
 import dated from '../assets/images/dated.jpg';
 import illustration from '../assets/images/illustration.jpg';
-import artstack from '../assets/images/artstack.jpg';
-import weather from '../assets/images/weather.jpg';
+import smokers from '../assets/images/smokers.jpg';
+import pinegrove from '../assets/images/pinegrove.jpg';
+
+
 
 
 
@@ -22,52 +24,52 @@ class Gallery extends React.Component {
            items: [
                {
                    id: 0,
-                   title: 'Golf Quiz',
-                   subTitle: 'A timed test of your golfing knowledge.',
+                   title: 'Prime Roast, client',
+                   subTitle: 'Branded print materials',
                    imgSrc: primeroast,
-                   link: 'https://github....',
+                   link: 'http://primeroast.com/',
                    selected: false
                },
                {
                    id: 1,
-                   title: 'Random Password Generator',
-                   subTitle: 'Create unique passwords from 8-64 characters long.',                 
+                   title: 'Fifty-Two',
+                   subTitle: 'KSC exhibit',                 
                    imgSrc: fiftytwo,
-                   link: 'https://github....',
+                   link: 'http://jenkinsart.blogspot.com/',
                    selected: false
                },
                {
                    id: 2,
-                   title: 'Truffle Shuffle',
-                   subTitle: 'A group project integrating external API calls to create a fun entertainment application.',                 
+                   title: 'Dated',
+                   subTitle: 'An art project',                 
                    imgSrc: dated,
-                   link: 'https://github....',
+                   link: 'http://jenkinsart.blogspot.com/',
                    selected: false
                },
                {
                    id: 3,
-                   title: 'Note Pad',
-                   subTitle: 'An application for keeping and deleting notes.',                 
-                   imgSrc: illustration,
-                   link: 'https://github....',
+                   title: 'Illustration Samples',
+                   subTitle: 'Covers, logos, etc.',                 
+                   imgSrc: illustration,                  
+                   link: 'http://jenkinsart.blogspot.com/',
                    selected: false
                },
                {
-                   id: 4,
-                   title: 'Art Stack',
-                   subTitle: 'A group project, we created an online gallery application for local artists to exhibit their work.',                 
-                   imgSrc: artstack,
-                   link: 'https://github....',
-                   selected: false
-               },
-               {
-                   id: 5,
-                   title: 'API Weather App',
-                   subTitle: 'Search for a city, get weather conditions for that day and a 5-day forecast.',
-                   imgSrc: weather,
-                   link: 'https://github....',
-                   selected: false
-               },
+                    id: 4,
+                    title: 'Pine Grove Springs GC, client',
+                    subTitle: 'Print, social media',                 
+                    imgSrc: pinegrove,                  
+                    link: 'https://www.instagram.com/pine_grove_springs_cc/',
+                    selected: false
+                },
+                {
+                    id: 5,
+                    title: 'Smokers',
+                    subTitle: 'An art project',                 
+                    imgSrc: smokers,                  
+                    link: 'http://jenkinsart.blogspot.com/',
+                    selected: false
+                }
            ]
 
        }

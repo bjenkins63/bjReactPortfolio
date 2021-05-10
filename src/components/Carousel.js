@@ -23,49 +23,49 @@
                 {
                     id: 0,
                     title: 'Golf Quiz',
-                    subTitle: 'A timed test of your golfing knowledge.',
+                    subTitle: 'A timed test',
                     imgSrc: golf,
-                    link: 'https://github....',
+                    link: 'https://github.com/bjenkins63/Jenkins-Code-Quiz',
                     selected: false
                 },
                 {
                     id: 1,
                     title: 'Random Password Generator',
-                    subTitle: 'Create unique passwords from 8-64 characters long.',                 
+                    subTitle: 'Create unique passwords',                 
                     imgSrc: generator,
-                    link: 'https://github....',
+                    link: 'https://github.com/bjenkins63/Random-Password-Generator',
                     selected: false
                 },
                 {
                     id: 2,
                     title: 'Truffle Shuffle',
-                    subTitle: 'A group project integrating external API calls to create a fun entertainment application.',                 
+                    subTitle: 'An entertainment application.',                 
                     imgSrc: truffle,
-                    link: 'https://github....',
+                    link: 'https://github.com/bjenkins63/Truffle-Shuffle',
                     selected: false
                 },
                 {
                     id: 3,
                     title: 'Note Pad',
-                    subTitle: 'An application for keeping and deleting notes.',                 
+                    subTitle: 'Save, delete notes',                 
                     imgSrc: notepad,
-                    link: 'https://github....',
+                    link: 'https://github.com/bjenkins63/Notepad',
                     selected: false
                 },
                 {
                     id: 4,
                     title: 'Art Stack',
-                    subTitle: 'A group project, we created an online gallery application for local artists to exhibit their work.',                 
+                    subTitle: 'Local art gallery',                 
                     imgSrc: artstack,
-                    link: 'https://github....',
+                    link: 'https://art-stack-0.herokuapp.com/',
                     selected: false
                 },
                 {
                     id: 5,
                     title: 'API Weather App',
-                    subTitle: 'Search for a city, get weather conditions for that day and a 5-day forecast.',
+                    subTitle: 'Current weather, 5-day forecast',
                     imgSrc: weather,
-                    link: 'https://github....',
+                    link: 'https://github.com/bjenkins63/Weather-Dashboard',
                     selected: false
                 },
             ]
