@@ -12,13 +12,13 @@ function AboutView(props) {
             <Content>
 
 
-            <a href="https://www.linkedin.com/in/brian-jenkins-38111631/" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/brian-jenkins-38111631/" rel="noreferrer" target="_blank">
                 LinkedIn
             </a>
             <br/>
             <br/>
 
-            <a href="https://github.com/bjenkins63" rel="noreferrer">
+            <a href="https://github.com/bjenkins63" rel="noreferrer" target="_blank">
                 GitHub
             </a>
             <br/>
