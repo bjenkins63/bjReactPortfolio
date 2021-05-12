@@ -4,6 +4,17 @@ Creative design, web development and art portfolio.
 ## Description
 A React website showcasing my web development projects primarily. Also design and art projects.
 
+_________
+
+
+## Screenshots
+
+
+![](src/assets/images/bj_react.jpg)
+
+
+_________
+
 
 ## Installation
 
